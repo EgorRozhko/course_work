@@ -1,0 +1,192 @@
+/***************************************   FONTS   ********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+/*************************************** BLOCKS ** ********************************************/
+body { margin: 0px; padding: 0px; background: #A5C0A1; overflow-x: hidden; }
+header { width: 100vw; background-color: #5ce54f; border-bottom:1px black solid;}
+/***********************************************************************************************/
+
+
+
+/*************************************** HEADER ************************************************/
+	/************  HEADER CONTACTS ********/
+
+	.enter-button{
+		font-size: 1.2em;
+		text-decoration: none;
+		color: black;
+		cursor: pointer;
+		margin-right: 1em;
+		transition: .2s;
+	}
+	.enter-button:hover{
+		color: #036500;
+		transition: .2s;
+	}
+
+	#header-contacts{
+		display: flex;
+		justify-content: space-around;
+	}
+	#header-contacts-title{
+		display: flex;
+		align-items: center;
+		margin-right: 5em;
+		align-items: center;
+		justify-content: flex-end;
+	}
+	#logo{
+		width:150px;
+	}
+	#title-box{display: flex; align-items: center; justify-content: center; }
+	#title{	font-size: 3.5em;  font-weight: 1em; font-family: pacifico;}
+
+	#contacts{
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		align-items: center;
+	}
+
+	#contacts-list{
+		list-style-type: none;
+		font-size: 1.1rem;
+	}
+	#first-number-box{ display: flex; align-items: center; height: 50%; }
+	#second-number-box{ display: flex; align-items: flex-end; height: 50%; }
+	.first-number{ background: url('../images/icons/ico-viber.png'); }
+	.second-number{ background: url('../images/icons/ico-mts.png'); }
+	.item-number{
+		padding-left: 1em;
+		margin-left: 1em;
+		background-size: 18px;
+		font-size: 1.2em;
+		background-repeat: no-repeat;
+		background-position: left center;
+		display: flex;
+		align-items: center;
+	}
+	/************  HEADER MENU ************/
+	#header-menu{
+		background-color: white;
+		min-width: 98%;
+		min-height: 100%;
+		margin-right: 0px;
+		margin-left: auto;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#menu-items-block{
+		height: auto;
+		width: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	#menu-items{
+		display: flex;
+	}
+	#user-block{
+		display: flex;
+		justify-content: center;
+	}
+	.user_name{
+		text-decoration: underline;
+		font-size: 1.2em;
+		cursor: pointer;
+	}
+	#user-short-menu{
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		background: rgb(0,0,0);
+		position: absolute;
+		color: white;
+		border: 1px white solid;
+	}
+	.b {
+		animation: anim 0.4s ease;
+		cursor:pointer;
+	}
+
+	@keyframes anim{
+		from{
+			opacity: 0;
+		}
+		10%{
+			opacity: 0.1;
+		}
+		20%{
+			opacity: 0.2;
+		}
+		30%{
+			opacity: 0.3;
+		}
+		40%{
+			opacity: 0.4;
+		}
+		50%{
+			opacity: 0.5;
+		}
+		100%{
+			opacity: 1;
+		}
+	}
+	#menu-user-name{
+		font-size: 1.3em;
+		color:gold;
+		text-align: center;
+	}
+	.show-user-menu{
+		display: block;
+	}
+	#logout{
+		font-size: 1.3em;
+		text-align: center;
+	}
+	.user-menu-item{
+		cursor: pointer;
+		font-size:1.1em;
+	}
+	#balans-block{
+		color: gold;
+		width: 100%;
+	}
+	#balans-block div{
+		display: flex;
+		justify-content: space-around;
+	}
+	#balans-block img{
+		height: 20px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.balans{
+		margin: 0px;
+		padding: 0px;
+	}
+	#triangle{
+		font-size: 1.1em;
+		transition: .4s;
+		cursor: pointer;
+	}
+	.triangle-rotate{
+		transform: rotate(180deg);
+	}
+	.menu-item{
+		display: flex;
+		font-size: 1.3rem;
+		padding: 0px;
+		padding-left: 1.1rem;
+		margin: 0px;
+	}
+	.menu-item a{
+		transition: .2s;
+		text-decoration: none;
+		color: black;
+	}
+	.menu-item a:hover{
+		transition: .1s;
+		color: #118906;
+	}

@@ -1,0 +1,10 @@
+hr{ width: 80% }
+h1 { text-align: center; }
+.property-transport{ font-size: 1.1em; color: black; }
+.title-transport{ font-size: 1.5em; color: black; text-align: center; }
+.abutton{ transition: .3s; color: black; padding: .5em; cursor: pointer; border: 1px black solid; border-radius: 2px; }
+.abutton:hover{ transition: .3s; background: #5ce54f; color: black; padding: .5em; border: 1px black solid; border-radius: 2px; }
+.first-box{ justify-content: center; align-items: flex-end;  height: 50%; }
+.second-box{ justify-content: center; align-items: flex-start; height: 50%; }
+#button-box p{ text-align: center; }
+#button-box div{ display: flex; }

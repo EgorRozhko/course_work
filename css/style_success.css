@@ -1,0 +1,10 @@
+img{ margin-right: auto; margin-left: auto; height: 200px; }
+#image-cont{ text-align: center; }
+#head-cont{
+	display: grid;
+	height: auto;
+	width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+h3 { text-align: center; }

@@ -1,0 +1,7 @@
+hr{ width: 80%; }
+h1{ text-align: center; }
+.title-transport{ color: black; font-size: 1.5em; text-align: center; margin-bottom: 1em; }
+.property-transport{ color: black; }
+.remove-transport-button{ cursor: pointer; color: black;  border: 1px black solid; font-size: 1.4em; padding: .5em; transition: .3s; }
+.remove-transport-button:hover{ background-color: #5ce54f; transition: .3s; }
+#remove-transport-button-box{ display: flex; align-items: center; justify-content: center; }

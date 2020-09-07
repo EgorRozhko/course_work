@@ -1,0 +1,43 @@
+h2 { text-align: center; margin-top: 0px; }
+label { text-align: right; margin-right: 1em; font-size: 1.2em; margin-top: 1em; font-family: arial; }
+input{ width: 50%; font-size: 1.1em; height: 1.2em; margin-top: 1em; }
+select { width: 50%; font-size: 1.1em; height: 1.5em; margin-top: 1em; text-align: center; }
+#property-transport{ text-align: center; margin-top: 2em; font-size: 1.5em;}
+#add-transport-window{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1.5em;
+}
+.add-transport-fields{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#button-box{
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+ 	text-align: center;
+}
+#add-transport-button{
+	font-family:  Arial;
+	font-size: 1.2em;
+	padding: .7em;
+	border-radius: 2px;
+	border: 1px black solid;
+	transition: .3s;
+	cursor: pointer;
+}
+#add-transport-button:hover
+{
+	background-color: #5ce54f;
+	transition: .3s;
+}
+#warning{
+	text-align: center;
+}
+.warning-success{
+	color: green;
+}
+.warning-error{
+	color:red;
+}

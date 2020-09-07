@@ -1,0 +1,13 @@
+hr{ width: 80%; }
+h1{ text-align: center; }
+#order-block{ margin-right: auto; margin-left: auto; width: 80%; }
+.order-id{ font-size: 1.4em; }
+p{ text-align: center; }
+.border-order{
+	width: 40%;
+	padding: 0;
+	height: 10px;
+	border: none;
+	border-top: 1px solid #333;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}

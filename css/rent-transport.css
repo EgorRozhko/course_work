@@ -1,0 +1,8 @@
+hr{ width: 80%; }
+h1{ text-align: center; }
+#block{ width: 100%; display: flex; margin-left: 2em; }
+#user-info{ font-size: 1.1em; }
+#user-info p{ margin: .2em; }
+#stop-rent-box{ display: flex; width:50%; justify-content: flex-start; align-items: center; }
+#stop-rent-box p{ font-size: 1.2em; margin-left: 5em; transition: .3s; cursor: pointer; border: 1px black solid; padding: .5em; border-radius: 3px; }
+#stop-rent-box p:hover{ background-color:#5ce54f; transition: .3s; font-size: 1.2em; margin-left: 5em; border: 1px black solid; padding: .5em; border-radius: 3px; }

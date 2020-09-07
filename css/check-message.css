@@ -1,0 +1,14 @@
+hr{ width: 80%; }
+span{ font-size: 1.3em; }
+label{ font-size: 1.1em; }
+#head-box{ display: flex; align-items: center; justify-content: center; }
+#block-message{ margin-right: auto; margin-left: auto; width: 80%; background: white; }
+#message-id, #message-theme{ margin-right: 1em; margin-top: 2em; }
+#message-contact{ font-size: 1.3em; text-align: center; }
+#message-text{ font-size: 1.3em; text-align: center; }
+#answer-box{ margin-right: auto; margin-left: auto; display: grid; grid-template-rows: 1fr 1fr; width: 80%; }
+#answer-box div{ display: flex; justify-content: center; }
+.answer-for-user-box{ text-align: center; }
+.answer-for-user{ padding: .5em;  border: 1px black solid; transition: .3s; border-radius: 2px; cursor: pointer; }
+.answer-for-user:hover{ background: #5ce54f; transition: .3s; }
+#warning-support{ font-size: 1.1em; color: red; text-align: center; margin: 0px;}

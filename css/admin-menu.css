@@ -1,0 +1,6 @@
+body{ background-color: #e8f2e8; }
+#item-box{ display: block; width: 100%; border-top: 1px black solid;}
+#adress{ text-align: center; font-size: 1.4em; }
+.admin-item{ font-size: 1.2em; text-align: center; margin-top: 2em; }
+.admin-item span{ padding: .5em; cursor: pointer; transition: .3s; border: 1px black solid; border-radius: 3px; }
+.admin-item span:hover { background-color: #5ce54f; transition: .3s; }

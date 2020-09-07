@@ -1,0 +1,92 @@
+h1 { text-align: center; }
+h2 { text-align: center; margin-top: 2em; }
+hr { width: 80%; }
+label, input { font-size: 1.3em; text-align: center; }
+label { text-align: right; margin-right: 1em; }
+#row-reserved-transport{
+	grid-template-columns: 1fr 3fr;
+	width: 65%;
+}
+.property-transport-search{ font-size:1em; color: black; }
+.title-transport{ color: black; font-size: 1.4em; text-align: center; }
+#search-box{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-bottom: 2em;
+}
+#admin-rent-button-box{
+	margin: 0px;
+	padding: 0px;
+}
+#admin-rent-button{
+	font-size: 1.3em;
+	margin-left: 1em;
+	cursor: pointer;
+	transition: .3s;
+}
+#admin-rent-button:hover{
+	color: #125e10;
+	transition: .3s;
+}
+#admin-res-button{
+	font-size: 1.3em;
+	margin-left: 1em;
+	cursor: pointer;
+	transition: .3s;
+}
+#admin-res-button:hover{
+	color: #125e10;
+	transition: .3s;
+}
+.property-user{
+	font-size: 1.2em;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: .3em;
+}
+#findly-user{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#user-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#checkboxes-user{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 1em;
+}
+#user-border{
+	width: 80%;
+	text-align: center;
+}
+.create-rent{
+	text-align: right;
+	margin-right: 1.5em;
+	font-size: 1.2em;
+	padding: .5em;
+	border-radius: 3px;
+	transition: .3s;
+	border: 1px black solid;
+}
+.create-rent:hover{
+	transition: .3s;
+	background-color: #5ce54f;
+}
+.create-res{
+	text-align: right;
+	margin-right: 1.5em;
+	font-size: 1.2em;
+	padding: .5em;
+	border-radius: 3px;
+	transition: .3s;
+	border: 1px black solid;
+}
+.create-res:hover{
+	transition: .3s;
+	background-color: #5ce54f;
+}
